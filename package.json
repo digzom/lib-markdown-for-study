@@ -2,7 +2,16 @@
   "name": "lib-markdown-for-study",
   "version": "1.0.0",
   "description": "Lightweight lib for link detect links files within a folder.",
-  "main": "index.js",
+  "main": "./cli.js",
+  "homepage": "https://github.com/dicksonmelo/lib-markdown-for-study",
+  "bugs": {
+    "url": "https://github.com/dicksonmelo/lib-markdown-for-study/issues",
+    "email": "dicksonmelo@gmail.com"
+  },
+  "bin": {
+    "links-on": "./cli.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "jest ./src/test/index.test.ts",
     "dev": "ts-node src/index.ts",
@@ -12,7 +21,7 @@
     "URL, link, NodeJS, markdown"
   ],
   "transform": {},
-  "author": "",
+  "author": "Dickson Melo dicksonmelo@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-typescript": "^7.16.7",
